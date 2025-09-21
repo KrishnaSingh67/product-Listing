@@ -1,0 +1,84 @@
+/* *{
+     border: 1px solid  black;
+   
+} */
+body, #root{
+    height: 100%;
+    margin: 0;
+}
+footer{
+     display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.f1{
+    color: #22262A;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    width: 220.95px;
+    height: 70px;
+        /* position: relative;
+    right: 58px; */
+}
+.hf{
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.footer{
+      background-color: #BCDDFE;
+    min-height: 60vh;    width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin: 15px; */
+    font-family: 'poppins';
+    color: #22262A;
+}
+.follow{
+    width: 197.87px;
+    height: 41.45px;
+    border: 1px solid red;
+        /* right: 367px;
+    position: relative; */
+}
+.follow{
+    gap: 15px;
+}
+.contact{
+       width: 173px;
+}
+.imgS{
+    display: flex;
+    gap: 44px;
+}
+.f-main{
+    height: 187.87px;
+    width: 1087.09px;
+     display: grid;
+    grid-template-columns: repeat(4, 0.7fr);
+}
+.intro,.service,.account,.offer{
+    padding: 8px;
+    padding-right: 122px;
+}
+.bottom{
+    width: 1195.8px;
+    height: 52.44px;
+
+}
+.bottom h4{
+        color: #C1C8CE;
+    font-weight: 400;
+    font-size: 14px;
+    width: 359.79px;
+    height: 15.66px;
+    top: 20px;
+    position: relative;
+}
+.br{
+    border: 2px solid white;
+    width: 1020px;
+    height: 0;
+}

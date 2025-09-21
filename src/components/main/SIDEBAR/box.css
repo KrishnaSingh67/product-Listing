@@ -1,0 +1,22 @@
+.boxes {
+    /* border: 2px solid red; */
+    max-width: 349.23px;
+    max-height: 548.57px;
+  margin-bottom: 15px;
+   background-color: #F6F7F8;
+   border-radius: 4px;
+}
+
+.circle{
+    border: 1px solid blue;
+    width: 25.77px;
+    height: 23.45px;
+}
+h4 {
+    padding: 12px;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #22262A;
+}

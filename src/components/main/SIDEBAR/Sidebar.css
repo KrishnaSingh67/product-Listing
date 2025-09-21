@@ -1,0 +1,147 @@
+.Scontainer {
+    border: 2px solid black;
+    width: 20%;
+    height: 100%;
+    padding: 8px;
+    margin: 13px;
+
+}
+
+.box1 {
+    /* border: 2px solid blue; */
+    margin: 12px;
+}
+
+.box1 li {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #262626;
+}
+
+#airmax {
+    color: #33A0FF;
+}
+
+.slider {
+    /* border: 2px solid blue; */
+    max-width: 300.13px;
+    max-height: 190.55px;
+    padding: 5px;
+    margin: 8px 24px;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #2E90E5; */
+    max-width: 296.39px;
+    height: 8.68px;
+    position: relative;
+    top: 12px;
+    margin-bottom: 10px;
+    background-color: #2E90E5;
+}
+
+.white {
+    position: relative;
+    border: 4px solid rgb(255, 255, 255);
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    top: -6px;
+    background-color: #2E90E5;
+}
+
+.white1 {
+    position: relative;
+    border: 4px solid rgb(255, 255, 255);
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    top: -6px;
+    right: 83px;
+    background-color: #2E90E5;
+}
+
+.line1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d1d1d1;
+    width: 30.46px;
+    height: 10.88px;
+    background-color: rgb(193, 193, 193);
+    border-radius: 2px;
+}
+
+.colors {
+    display: flex;
+    gap: 8px;
+    /* border: 1px solid red; */
+    justify-content: center;
+    margin: 12px;
+    padding: 5px;
+    align-items: center;
+}
+
+.color {
+    width: 25.77px;
+    height: 23.45px;
+    border: 1px solid #F6F7F8;
+    border-radius: 60px;
+}
+
+.c3 {
+    width: 30.93px;
+    height: 28.14px;
+    border-radius: 60px;
+    border: 2px solid #006aff7c;
+}
+
+.levender {
+    background-color: #EFDFDF;
+}
+
+.yellow {
+    background-color: #FFF600;
+}
+
+.black {
+    background-color: #171717;
+}
+
+.red {
+    background-color: #FC3E39;
+}
+
+.pink {
+    background-color: #FF00B4;
+}
+
+.blue {
+    background-color: #006aff;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    top: 1px;
+    left: 2px;
+
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    max-width: 349.23px;
+    max-height: 548.57px;
+    margin-bottom: 15px;
+    background-color: #F6F7F8;
+}

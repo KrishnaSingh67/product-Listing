@@ -1,0 +1,195 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+        padding: 15px 18px;
+    margin:0 17px;
+}
+
+.icon {
+    width: 51px;
+    height: 44px;
+    border-radius: 16px;
+    background-color: #40BFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group491 {
+    display: flex;
+    width: 182px;
+    height: 44px;
+    /* top: 13.27px;
+   left: 27.4px; */
+    align-items: center;
+    gap: 18px;
+    /* padding-left: 14px; */
+    /* position: absolute; */
+}
+
+.group491 h3 {
+    font-family: 'Poppins';
+    color: #22262A;
+    font-weight: 700;
+    size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.group400 {
+    width: 19.56px;
+    height: 22.67px;
+    /* border: 1px solid rgb(56, 158, 56); */
+
+}
+
+.group389 {
+    width: 19.56px;
+    height: 22.67px;
+    top: 12.22px;
+    left: 14.17px;
+    transform: rotate(-45deg);
+    display: block;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.vector {
+    display: flex;
+    width: 7px;
+    height: 7px;
+    background: #4dc3ff;
+    /* same as background */
+    transform: rotate(-90deg);
+    align-items: center;
+    justify-self: center;
+    /* bottom: 15px; */
+    top: 8px;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    max-width: 804px;
+    max-height: 40px;
+    align-items: center;
+    /* border: 1px solid black; */
+   
+}
+
+.nav ul,
+li {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+     gap: 34px;
+    padding-right: 63px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.group394 {
+    min-width: 26.11px;
+    min-height: 34px;
+    /* border: 1px solid blue; */
+}
+
+.systemIcon {
+    /* border: 1px solid black; */
+    width: 22.45px;
+    height: 18.7px;
+    position: relative;
+}
+
+.group {
+    width: 16.84px;
+    height: 14.02px;
+    /* border: 2px solid yellow; */
+
+}
+
+.Cartt {
+    position: relative;
+    width: 19px;
+    height: 14px;
+    background: #22262A;
+    clip-path: polygon(10% 0%, 95% 0%, 80% 100%, 20% 100%);
+    border-radius: 3px;
+}
+
+.handle {
+     position: relative;
+    top: 7px;
+    left: -23%;
+    border-radius: 16px;
+    transform: rotate(76deg);
+    border: 2px solid #22262A;
+}
+
+.handle2 {
+   
+    position: absolute;
+    width: 4px;
+     top: 0.9px;
+    left: -6%;
+    border-radius: 16px;
+    transform: rotate(0deg);
+    border: 2px solid #22262A;
+}
+
+.Cartt-inner {
+    top: 2px;
+    width: 12px;
+    height: 10px;
+    background: white;
+    clip-path: polygon(8% -2%, 93% -18%, 80% 100%, 21% 103%);
+     
+    position: relative;
+    display: flex;
+    justify-self: center;
+}
+.wheel{
+    position: relative;
+    right: -5px;
+    display: flex;
+    gap: 2px;
+}
+.leftWheel{
+    width: 0.8px;
+    height: 0.8px;
+    border: 2px solid #22262A;
+    border-radius: 100%;
+}
+.rightWheel{
+    width: 0.8px;
+    height: 0.8px;
+    border: 2px solid #22262A;
+    border-radius: 100%;
+}
+.cartValue{
+  display: flex;
+    align-self: center;
+    gap: 12px;
+}
+.c1{
+color: #262626;
+font-family: 'poppins';
+font-weight: 400;
+size: 20px;
+line-height: 100%;
+}
+.c2{
+    font-family: 'poppins';
+    font-weight: 400;
+    size: 20px;
+    line-height: 100%;
+    color: #2626268c;
+}

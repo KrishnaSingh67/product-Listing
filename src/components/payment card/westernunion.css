@@ -1,0 +1,56 @@
+.card1{
+    width: 38.29px;
+    height: 23.16px;
+    background-color: black;
+    
+}
+
+.western{
+      width: 140px;
+      height: 90px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+
+      background: #222;
+      color: #FFD700;
+      font-size: 16px;
+      font-weight: 900;
+    
+}
+ /* MasterCard */
+    .master {
+      background: linear-gradient(to right, #EB001B 50%, #F79E1B 50%);
+      color: white;
+      font-size: 14px;
+    }
+
+    /* PayPal */
+    .paypal {
+      background: white;
+      color: #0070ba;
+      font-size: 20px;
+      font-weight: bold;
+      border: 2px solid #e0e0e0;
+    }
+
+    /* Visa */
+    .visa {
+      background: linear-gradient(to bottom, #2a2d7c 50%, #fdb913 50%);
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* Small styling inside Mastercard */
+    .master span {
+      background: black;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }

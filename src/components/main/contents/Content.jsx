@@ -70,12 +70,12 @@ const Content = () => {
           </div>
         </div>
         <div className="group-499">
-          <Card image={seneker1} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
-          <Card image={bag1} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
-          <Card image={bag2} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
-          <Card image={seneker3} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
-          <Card image={seneker4} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
-          <Card image={seneker2} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
+          <Card  image={seneker1} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
+          <Card  image={bag1} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
+          <Card  image={bag2} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
+          <Card className="pcard1" image={seneker3} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
+          <Card className="pcard1" image={seneker4} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
+          <Card className="pcard1" image={seneker2} name={"Nike Air Max 270 React"} newPrice={"$299,43"} oldPrice={"$534,33"} discount={"24"} />
         </div>
 
         <div className="pagiation">

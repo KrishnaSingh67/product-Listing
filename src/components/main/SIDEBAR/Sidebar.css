@@ -1,5 +1,4 @@
 .Scontainer {
-    border: 2px solid black;
     width: 20%;
     height: 100%;
     padding: 8px;
@@ -11,11 +10,15 @@
     /* border: 2px solid blue; */
     margin: 12px;
 }
+.box1 input{
+        top: 38px;
+    position: relative;
+}
 
 .box1 li {
     display: flex;
-    justify-content: space-between;
-    padding: 19px 0px;
+    justify-content: space-around;
+    padding: 14px 0px;
     font-weight: 400;
     font-size: 18px;
     color: #262626;

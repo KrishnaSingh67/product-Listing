@@ -1,23 +1,33 @@
-.Pcard {
-    /* background-color: red; */
+ .Pcard {
+    /* background-color: red;////////// */
+    width: 100%;
     width: 320px;
-    height: 382px;
-
-    border: 1px solid black;
+    height: 330px;
+    overflow: visible;
+    box-sizing: border-box;
     font-family: 'poppins';
     border-radius: 2px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+   
+
 }
 
+.card-image{
+    /* position: relative; */
+    width: 100%;
+    /* padding-top: 87%; */
+    overflow: hidden;
+}
 
 .card-image img {
-    /* border-image-repeat: repeat; */
     width: 320px;
-    height: 278.37px;
+    height: 278.37px;  
     object-fit: cover;
     object-position: center;
+        position: relative;
+    top: -70px;
 }
 
 .bage {
@@ -35,10 +45,18 @@
 .card-info {
     display: grid;
     justify-content: center;
-    bottom: 28px;
+    /* bottom: 28px;
+    position: relative; */
+        top: -90px;
     position: relative;
 }
+.card-info h1{
+    display: grid;
+    justify-content: center;
+    top: -215px;
+    position: relative;
 
+}
 .card-info h3 {
     color: #223263;
     font-weight: 700;
@@ -90,4 +108,4 @@
 .dis {
     font-weight: 700;
     color: #FB7181;
-}
+} 

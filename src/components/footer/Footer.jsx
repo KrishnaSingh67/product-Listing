@@ -5,7 +5,7 @@ import facebook from '../../assets/facebook.svg'
 import Westernunion from '../payment card/Westernunion';
 const Footer = () => {
     return (
-        <div>
+        <div className='ff'>
             <div className="footer">
                 <div className="f1">
                     <h3 className='hf'><div className="icon">
@@ -15,7 +15,7 @@ const Footer = () => {
                             </span>
                         </div>
                     </div>E-Comm</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.Since the 1500s, when an unknown printer.!</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
                 </div>
                 <div className="follow">
                     <h3>Follow Us</h3>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
                 <div className="f-main">
                     <div className="intro">
-                        <h3>i</h3>
+                        <h3>Infomation</h3>
                         <p>About Us Infomation Privacy Policy Terms & Conditions</p>
                     </div>
                     <div className="service">

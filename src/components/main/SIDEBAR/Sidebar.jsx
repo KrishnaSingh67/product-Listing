@@ -3,18 +3,20 @@ import './Sidebar.css'
 import Box from './box'
 
 const Sidebar = () => {
+  
     return (
         <div>
             <div className="Scontainer">
                 <Box title={"Hot deals"}>
                     <ul className='box1'>
-                        <li>Nike <span>2</span></li>
-                        <li id='airmax'>Airmax <span>48</span></li>
-                        <li>Nike <span>14</span></li>
-                        <li>Adidas <span>15</span></li>
-                        <li>Vans <span>23</span></li>
-                        <li>All Stars <span>1</span></li>
-                        <li>Adidas <span>95</span></li>
+
+                        <input type="checkbox" /> <li>Nike <span>2</span></li>
+                        <input type="checkbox" /> <li id='airmax'>Airmax <span>48</span></li>
+                        <input type="checkbox" /> <li>Nike <span>14</span></li>
+                        <input type="checkbox" /><li>Adidas <span>15</span></li>
+                        <input type="checkbox" /><li>Vans <span>23</span></li>
+                        <input type="checkbox" /><li>All Stars <span>1</span></li>
+                        <input type="checkbox" /><li>Adidas <span>95</span></li>
                     </ul>
                 </Box>
                 <Box className="box2" title={"PRICES"}>
@@ -48,7 +50,7 @@ const Sidebar = () => {
                     </ul>
                 </Box>
                 <div className="more">
-              <h4>MORE</h4>
+                    <h4>MORE</h4>
                 </div>
             </div>
         </div>

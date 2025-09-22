@@ -2,13 +2,14 @@ import React from 'react'
 import './card.css'
 
 
-const Card = ({ image, name, newPrice, oldPrice, discount }) => {
+const Card = ({ className, image, name, newPrice, oldPrice, discount }) => {
     return (
         <div className='Pcard'>
-            <div className="card-image">
-                <img src={image} alt={name} />
-                <div className="bage">HOT</div>
-</div>
+            <div className={`Pcard ${className || ""}`}>
+                <div className="card-image">
+                    <img src={image} alt={name} />
+                    <div className="bage">HOT</div>
+                </div>
                 <div className="card-info">
                     <h3>{name}</h3>
                     <ul className='c'>
@@ -25,7 +26,8 @@ const Card = ({ image, name, newPrice, oldPrice, discount }) => {
                         <span className='old'>{oldPrice}</span>
                         <span className='dis'>{discount}% off</span>
                     </div>
-                
+
+                </div>
                 </div>
             </div>
             )
